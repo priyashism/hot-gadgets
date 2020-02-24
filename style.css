@@ -1,7 +1,9 @@
+/*General Container Override*/
 .container{
     margin-bottom: 50px;
 }
 
+/*Carousel Override*/
 .carousel-item p{
     color: #707070;
 }
@@ -18,7 +20,7 @@
     border-radius: 13px;
 }
 
-
+/*Buy Now Button*/
 .buy-now-button{
     background-color: black;
     color: #fff;
@@ -30,6 +32,7 @@
     font-weight: 700;
 }
 
+/*Products Design*/
 .price{
     font-weight: 700;
     color: crimson;
@@ -52,6 +55,7 @@
     cursor: pointer;
 }
 
+/*Category Line design*/
 .category-line{
     border-style: solid;
     border-width: 0 0 5px 0;
@@ -62,6 +66,7 @@
     border-image: linear-gradient(45deg, rgb(255, 125, 3), rgb(250,224,66)) 1;
 }
 
+/*Category Section*/
 #category{
     margin-top: 100px;
 }
@@ -89,6 +94,7 @@ h5{
     border-bottom-right-radius: 30px;
 }
 
+/*Contact Us Section*/
 .subscribe-button{
     background-color: darkcyan;
     color: #fff;
@@ -108,6 +114,7 @@ h5{
     color: #707070;
 }
 
+/*Footer Section*/
 footer{
     text-align: center;
 }
