@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><strong>Home</strong> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product"><strong>Product</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us"><strong>About Us</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us"><strong>Contact Us</strong></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <h1>Mackbook Pro</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+                                literature.</p>
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                        <div class="col-md-7 offset-md-1">
+                            <img class="d-block w-100" src="images/banner-products/product-1.png" alt="First slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <h1>Mackbook Pro</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+                                literature.</p>
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                        <div class="col-md-7 offset-md-1">
+                            <img class="d-block w-100" src="images/banner-products/slider-1.png" alt="Second slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <h1>Mackbook Pro</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+                                literature.</p>
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                        <div class="col-md-7 offset-md-1">
+                            <img class="d-block w-100" src="images/banner-products/slider-3.png" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="product">
+        <div class="d-flex justify-content-between">
+            <h4>Smartphone</h4>
+            <p class="see-all">See All</p>
+        </div>
+        
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/phone/phone-1.png" class="card-img-top" alt="SmartPhone 1">
+                    <div class="card-body text-center">
+                            <h5 class="card-title">Xiomi A3</h5>
+                            <p class="card-text">Some quick example text to build on the card title.</p>
+                            <h5 class="price">$199</h5>
+                            <button class="buy-now-button">BUY NOW</button>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/phone/phone-2.png" class="card-img-top" alt="SmartPhone 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">iPhone 11 Pro</h5>
+                    <p class="card-text">Some quick example text to build on the card title.</p>
+                    <h5 class="price">$999</h5>
+                    <button class="buy-now-button">BUY NOW</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/phone/phone-3.png" class="card-img-top" alt="SmartPhone 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                    <p class="card-text">Some quick example text to build on the card title.</p>
+                    <h5 class="price">$899</h5>
+                    <button class="buy-now-button">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="product">
+        <div class="d-flex justify-content-between">
+            <h4>Laptop</h4>
+            <p class="see-all">See All</p>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/laptop/product-1.png" class="card-img-top" alt="Laptop 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Asus VivoBook</h5>
+                    <p class="card-text">Some quick example text to build on the card title.</p>
+                    <h5 class="price">$999</h5>
+                    <button class="buy-now-button">BUY NOW</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/laptop/product-2.png" class="card-img-top" alt="Laptop 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Razer Blade 15</h5>
+                    <p class="card-text">Some quick example text to build on the card title.</p>
+                    <h5 class="price">$2799</h5>
+                    <button class="buy-now-button">BUY NOW</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/laptop/product-3.png" class="card-img-top" alt="SmartPhone 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                    <p class="card-text">Some quick example text to build on the card title.</p>
+                    <h5 class="price">$899</h5>
+                    <button class="buy-now-button">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="category">
+        <div class="d-flex justify-content-center category-line">
+            <h3>Categories</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex align-self-center">
+            <div class="row">
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div>
+                        <div class="row">
+                            <div class="card cat-card1 d-flex justify-content-center align-items-center">
+                                <div>
+                                    <div style="width: 5rem;">
+                                        <img class="card-img-top" src="images/Categories/bag.png" alt="Bag">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-text">Bag</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div>
+                        <div class="d-flex flex-column">
+                            <div class="row">
+                                <div class="card cat-card2 d-flex justify-content-center align-items-center">
+                                    <div>
+                                        <div style="width: 5rem;">
+                                            <img class="card-img-top" src="images/Categories/perfume.png" alt="Perfume">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-text">Beauty</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="card cat-card2 d-flex justify-content-center align-items-center">
+                                    <div>
+                                        <div style="width: 5rem;">
+                                            <img class="card-img-top" src="images/Categories/shoe.png" alt="Shoe">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-text">Shoe</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-1 d-flex justify-content-center align-items-center">
+                    <div>
+                        <img class="img-fluid" src="images/Categories/pale-order.png" alt="Place Order">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center" id="contact-us">
+            <div>
+                <h3>LET'S STAY IN TOUCH</h3>
+                <h6>Get updates on sales specials and more</h6>
+                <input class="form-control" type="text">
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer>
+            <small>&copy; 2020, Hot Gadgets, All Rights Reserved. Dhaka, Bangladesh.</small>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
