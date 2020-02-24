@@ -67,18 +67,22 @@
 }
 
 .cat-card1{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-top-left-radius: 0;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 0;
 }
 
+h5{
+    text-align: center;
+}
+
 .cat-card2{
     margin-top: 20px;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-top-left-radius: 15px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0;
